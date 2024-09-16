@@ -1,0 +1,20 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "A social network API built with Express.js and MongoDB",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "keywords": ["social network", "api", "express", "mongodb", "mongoose"],
+    "author": "Daniel Berroa",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.0.13"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    }
+  }

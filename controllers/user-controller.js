@@ -1,5 +1,5 @@
 // Import the User and Thought models
-const { User, Thought } = require('../../Social-Network-API/models');
+const { User, Thought } = require('../models');
 
 const userController = {
   // Retrieve all users from the database
